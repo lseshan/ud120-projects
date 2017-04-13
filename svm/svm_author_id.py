@@ -44,6 +44,7 @@ print(acc)
 print(pred[10], pred[26], pred[50])
 print(len(pred))
 count = 0
+
 for i in range(len(pred)):
     if pred[i] is 1:
         count+=1
